@@ -171,7 +171,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: rgba(0,0,0,0.3);
+    background-color: #000;
 }
 
 .navbar-default .navbar-brand {
@@ -275,7 +275,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 65px;
@@ -713,7 +713,7 @@ a.slide-button {
 
 #about-list li {
   padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #000;
   font-size: 15px;
   font-weight: 700;
@@ -817,7 +817,7 @@ a.slide-button {
   .navbar-default {
     padding: 25px 0;
     border: 0;
-    background-color: rgba(0,0,0,0.3);
+    background-color: #000;
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
@@ -852,6 +852,12 @@ a.slide-button {
 
   header .intro-text .intro-lead-in {
     font-size: 40px;
+  }
+}
+
+@media(max-width:1200px) {
+  #testimonials .carousel {
+    width: 100%;
   }
 }
 
