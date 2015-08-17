@@ -877,6 +877,11 @@ a.slide-button {
 }
 
 @media(max-width: 768px) {
+  #about-list {
+    border-right: none;
+    border-bottom: 1px solid black;
+  }
+
   #training-img {
     margin-top: 50px;
   }
