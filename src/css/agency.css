@@ -1,0 +1,899 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: #FF0000;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #FF0000;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fec503;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color: #FF0000;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FF0000;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #FF0000;
+    background-color: #FF0000;
+}
+
+.btn-primary .badge {
+    color: #FF0000;
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #FF0000;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FF0000;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #CC0000;
+    color: #fff;
+    background-color: #CC0000;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #FF0000;
+    background-color: #FF0000;
+}
+
+.btn-xl .badge {
+    color: #FF0000;
+    background-color: #fff;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #CC0000;
+}
+
+.navbar-default .navbar-brand:focus {
+  color: #FFF;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FF0000;
+    background-color: #FF0000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FF0000;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover {
+    outline: 0;
+    color: #FF0000;
+}
+
+.navbar-default .nav li a:focus {
+  outline: 0;
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 3px;
+    color: #fff;
+    background-color: #FF0000;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #CC0000;
+}
+
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #FF0000;
+}
+
+
+header {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+aside.clients img {
+    margin: 50px auto;
+}
+
+section#contact {
+    background-color: #000;
+    background-image: url(../img/tf_training_team.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contact .form-control:focus {
+    border-color: #FF0000;
+    box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #FF0000;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #FF0000;
+}
+
+::selection {
+    text-shadow: none;
+    background: #FF0000;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #FF0000;
+}
+
+/* Added CSS */
+
+.header-overlay {
+  background-color: rgba(0,0,0,0.25);
+  height: 100%;
+}
+
+.header-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  z-index: 1;
+}
+
+.header-btn {
+  position: absolute;
+  top: 85vh;
+  left: 50%;
+  margin-left: -116px;
+}
+
+.header-btn a {
+  width: 232px;
+}
+
+.squad-lead-image img {
+  width: 100%;
+  max-width: 315px !important;
+  margin: auto;
+}
+
+.map-canvas {
+  width: 100%;
+  height: 600px;
+}
+
+
+h4.subheading, h4.subheading-time {
+  text-transform: none;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h4.subheading-time {
+  margin-bottom: 20px;
+}
+
+.nav-example {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.nav-slider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+#myslider {
+  width:100%;
+  height:600px;
+}
+
+a.slide-button {
+  position: absolute;
+  padding: 300px 0px 0px 15px;
+  top: 0px;
+  left: 0px;
+  z-index: 12;
+  width: 30px;
+  height: 600px;
+  color: #FFF;
+  background-color: rgba(0,0,0,0.4);
+  text-decoration: none;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+#next-button {
+  left: auto;
+  right: 0px;
+}
+
+.calendar-icon {
+  display: inline-block;
+  width: 75%;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.parallax {
+  height:500px;
+  padding-top:50px;
+  padding-bottom:50px;
+  overflow:auto;
+}
+
+.bg-1 {
+  background: url('../img/parallax-2.jpg') no-repeat center center fixed;
+  color:#fff;
+  background-size:cover;
+}
+
+.bg-2 {
+  background: url('../img/parallax-7.jpg') no-repeat center center fixed;
+  color:#fff;
+  background-size:cover;
+}
+
+.bg-3 {
+  background: url('../img/parallax-8.jpg') no-repeat center center fixed;
+  color:#fff;
+  background-size:cover;
+}
+
+.bg-4 {
+  background: url('../img/parallax-1.jpg') no-repeat center center fixed;
+  color:#fff;
+  background-size:cover;
+}
+
+.bg-5 {
+  background: url('../img/parallax-4.jpg') no-repeat center center fixed;
+  color:#fff;
+  background-size:cover;
+}
+
+.bg-6 {
+  background: url('../img/parallax-6.jpg') no-repeat center center fixed;
+  color:#fff;
+  background-size:cover;
+}
+
+.top-padding {
+   padding-top: 150px;
+}
+
+.bottom-padding {
+  padding-bottom: 150px;
+}
+
+.even-section {
+  padding: 0;
+}
+
+.odd-section {
+  padding: 0;
+}
+
+#about-list {
+  list-style: none;
+  border-right: 1px solid black;
+  padding-top: 40px;
+}
+
+#about-list li {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#about-list li:hover {
+  color: #CC0000;
+}
+
+#about-list li.selected {
+  font-size: 17px;
+  color: #FF0000;
+}
+
+.about-image {
+  border-radius: 3px;
+}
+
+#about p {
+  padding-top: 25px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#testimonials img {
+  height: 350px;
+}
+
+#testimonials .carousel {
+  width: 75%;
+  margin: auto;
+}
+
+#testimonials .carousel-control {
+  width: 60px !important;
+}
+
+.testimonial-text p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+}
+
+.packages-container {
+  background-color: black;
+  margin-top: 25px;
+}
+
+.package-header {
+  padding-top: 10px;
+  color: #fff;
+}
+
+.package-description {
+  background-color: white;
+  border: 1px solid #999;
+  border-top: none;
+  height: 40px;
+}
+
+.package-description p {
+  padding-top: 8px;
+}
+
+.package-image {
+  position: relative;
+  border-top: 1px solid #FF0000;
+}
+
+.package-image img {
+  width: 100%;
+}
+
+.package-image .image-text {
+  background-color: transparent;
+  margin: auto;
+  position: absolute;
+  top: 33%; left: 0; bottom: 0; right: 0;
+  color: #fff;
+}
+
+.training-images {
+  width: 100%;
+}
+
+
+#location .subheading {
+  font-weight: bold;
+}
+
+#contact .header-overlay {
+  padding: 100px;
+  margin-bottom: -100px;
+  margin-top: -100px;
+}
+
+/** BREAKPOINTS **/
+
+@media(min-width:768px) {
+  .navbar-default {
+    padding: 25px 0;
+    border: 0;
+    background-color: rgba(0,0,0,0.3);
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #FF0000;
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .navbar-default.navbar-shrink {
+    padding: 10px 0;
+    background-color: #222;
+  }
+
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+
+  .container {
+    width: auto !important;
+  }
+}
+
+@media(max-width:1280px) {
+  header .intro-text .intro-heading {
+    font-size: 50px;
+  }
+
+  header .intro-text .intro-lead-in {
+    font-size: 40px;
+  }
+}
+
+
+@media(max-width:1024px) {
+  header .intro-text .intro-heading {
+    font-size: 40px;
+  }
+
+  header .intro-text .intro-lead-in {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 870px) {
+  .navbar-default .navbar-brand {
+    font-size: 1.6em !important;
+  }
+
+  .navbar-default .nav li a {
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 768px) {
+  #training-img {
+    margin-top: 50px;
+  }
+
+  .header-logo {
+    height: 30%;
+    width: auto;
+  }
+
+  .map-canvas {
+    height: 400px;
+  }
+
+  header .intro-text .intro-heading {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  header .intro-text .intro-lead-in {
+    font-size: 20px;
+  }
+}

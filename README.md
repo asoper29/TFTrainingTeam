@@ -1,2 +1,0 @@
-Start Bootstrap - Half Slider
-=========
